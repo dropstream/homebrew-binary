@@ -14,7 +14,7 @@ class Eventstore < Formula
     (bin/"eventstore").write <<-EOS.undent
       #!/bin/sh
       cd "#{prefix}"
-      exec "#{prefix}/clusternode" "$@"
+      exec "#{prefix}/run-node.sh" "$@"
     EOS
 
     (bin/"eventstore-testclient").write <<-EOS.undent
