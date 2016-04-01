@@ -1,8 +1,8 @@
 class Eventstore < Formula
   desc "functional database with complex event processing"
   homepage "http://geteventstore.com"
-  url "http://download.geteventstore.com/binaries/EventStore-OSS-Mac-v3.0.4.tar.gz"
-  sha256 "7ac526464ef1423b93519cd0d5d61985b880e4412d93c07bbedb42f121a8900a"
+  url "http://download.geteventstore.com/binaries/EventStore-OSS-MacOSX-v3.5.0.tar.gz"
+  sha256 "504d48376cd4ba3949d85d0a75d2875ea51b6ef6b7f6c1c64cc6e6a38839aec5"
 
   bottle :unneeded
 
